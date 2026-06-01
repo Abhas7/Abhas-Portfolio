@@ -99,7 +99,7 @@ export const Card = ({
           </div>
 
           <div
-            className={`relative w-full md:w-[55%] h-[250px] md:h-full rounded-xl overflow-hidden shadow-inner`}
+            className={`relative w-full md:w-[55%] h-[250px] md:h-[350px] rounded-xl overflow-hidden shadow-inner`}
           >
             <motion.div
               className={`w-full h-full`}
