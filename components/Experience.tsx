@@ -34,6 +34,11 @@ const CERTIFICATES = [
         title: "Python Essentials",
         issuer: "Cisco",
         link: "https://www.credly.com/badges/b45fc475-5c9b-48cc-b79d-e71f3f5d92c9/public_url"
+    },
+    {
+        title: "Data Analytics Essentials",
+        issuer: "Cisco",
+        link: "https://www.credly.com/badges/5aa4a592-88ac-4dab-8af8-52a9065854a9/public_url"
     }
 ];
 
