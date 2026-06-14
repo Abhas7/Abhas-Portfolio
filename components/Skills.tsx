@@ -9,7 +9,7 @@ const techGroups = [
         title: "Languages & Core",
         description: "The foundation of my computational thinking and software engineering, focused on speed, strict typing, and high-efficiency programming.",
         icon: <Code size={32} className="text-current" />,
-        skills: ["JavaScript", "TypeScript", "Python"],
+        skills: ["JavaScript", "TypeScript", "Python", "C#"],
         bgColor: "#EAE7E0",
         textColor: "#000000"
     },
@@ -25,7 +25,7 @@ const techGroups = [
         title: "Backend & Systems",
         description: "Designing secure REST and GraphQL APIs, managing real-time event streams, and implementing scalable, concurrent server architectures.",
         icon: <Server size={32} className="text-current" />,
-        skills: ["Node.js", "Express.js", "FastAPI", "GraphQL", "Socket.io", "JWT", "Prisma"],
+        skills: ["Node.js", "Express.js", "ASP.NET Core", "EF Core", "FastAPI", "GraphQL", "Socket.io", "JWT", "Prisma"],
         bgColor: "#EAE0E3",
         textColor: "#000000"
     },

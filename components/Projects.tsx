@@ -37,6 +37,28 @@ const PROJECTS = [
         category: "Full Stack + AI + LLM",
         imageUrl: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=800&auto=format&fit=crop",
         color: "#D4D3CE"
+    },
+    {
+        title: "Task Manager",
+        id: "04",
+        description: "Full-stack task management application enabling secure user authentication, task tracking, and productivity management through a scalable ASP.NET Core and React architecture.",
+        tags: [
+            "ASP.NET Core 8 Web API",
+            "React.js & Vite",
+            "Entity Framework Core",
+            "PostgreSQL",
+            "JWT Authentication",
+            "BCrypt Password Hashing",
+            "Axios & Interceptors",
+            "React Context API",
+            "Tailwind CSS v4",
+            "Git & GitHub"
+        ],
+        link: "https://github.com/Abhas7/TaskManager",
+        github: "https://github.com/Abhas7/TaskManager",
+        category: "ASP.NET Core + React",
+        imageUrl: "https://images.unsplash.com/photo-1611224885990-ab7363d1f2a9?q=80&w=800&auto=format&fit=crop",
+        color: "#C6C5C0"
     }
 ];
 
