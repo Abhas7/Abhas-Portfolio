@@ -121,7 +121,7 @@ const Experience = () => {
                                 className="relative pb-12 border-b border-border/60 group"
                             >
                                 <div className="flex items-baseline justify-between mb-4">
-                                    <h4 className="text-2xl font-medium text-foreground font-display capitalize">Frontend Intern</h4>
+                                    <h4 className="text-2xl font-medium text-foreground font-display capitalize">Frontend Developer Intern</h4>
                                     <span className="text-accent font-medium text-xs tracking-[0.15em] uppercase">2025</span>
                                 </div>
                                 <div className="text-text-muted font-medium text-xs uppercase tracking-[0.15em] mb-6 flex items-center gap-2">
