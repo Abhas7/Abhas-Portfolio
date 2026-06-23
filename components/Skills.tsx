@@ -25,7 +25,7 @@ const techGroups = [
         title: "Backend & Systems",
         description: "Designing secure REST and GraphQL APIs, managing real-time event streams, and implementing scalable, concurrent server architectures.",
         icon: <Server size={32} className="text-current" />,
-        skills: ["Node.js", "Express.js", "ASP.NET Core", "EF Core", "FastAPI", "GraphQL", "Socket.io", "JWT", "Prisma"],
+        skills: ["Node.js", "Express.js", "ASP.NET Core", "EF Core", "FastAPI", "Flask", "GraphQL", "Socket.io", "JWT", "Prisma"],
         bgColor: "#EAE0E3",
         textColor: "#000000"
     },
@@ -33,7 +33,7 @@ const techGroups = [
         title: "Data Architecture",
         description: "Modeling relational schemas, indexing queries, and managing non-relational database structures to ensure fast access times and data integrity.",
         icon: <Database size={32} className="text-current" />,
-        skills: ["Postgres", "MongoDB", "MySQL", "Cassandra", "Supabase", "Firebase"],
+        skills: ["Postgres", "Pinecone", "MongoDB", "MySQL", "Cassandra", "Supabase", "Firebase"],
         bgColor: "#E0EAE5",
         textColor: "#000000"
     },
@@ -49,7 +49,7 @@ const techGroups = [
         title: "AI & Data Science",
         description: "Training neural networks, processing pipelines, and applying statistical models to engineer automated, intelligent systems.",
         icon: <Cpu size={32} className="text-current" />,
-        skills: ["PyTorch", "TensorFlow", "Scikit-Learn", "NumPy", "Pandas", "Plotly", "OpenCV"],
+        skills: ["LangChain", "Ollama", "PyTorch", "TensorFlow", "Scikit-Learn", "NumPy", "Pandas", "Plotly", "OpenCV"],
         bgColor: "#E5E0EA",
         textColor: "#000000"
     }

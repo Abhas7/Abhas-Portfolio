@@ -6,8 +6,30 @@ import { ArrowDown } from "lucide-react";
 
 const PROJECTS = [
     {
-        title: "Orbital CLI",
+        title: "MedChat AI",
         id: "01",
+        description: "A containerized Medical AI assistant featuring a hallucination-guarded RAG pipeline, real-time streaming, JWT auth, and source-cited medical insights.",
+        tags: [
+            "LangChain",
+            "Pinecone",
+            "Ollama",
+            "Python",
+            "Flask",
+            "Supabase",
+            "Next.js",
+            "Tailwind CSS",
+            "JWT Auth",
+            "Docker"
+        ],
+        link: "https://github.com/Abhas7/MedBotAI",
+        github: "https://github.com/Abhas7/MedBotAI",
+        category: "Flask + Next.js + RAG",
+        imageUrl: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?q=80&w=800&auto=format&fit=crop",
+        color: "#FAF9F6"
+    },
+    {
+        title: "Orbital CLI",
+        id: "02",
         description: "An autonomous AI agent CLI that generates code, searches the web, handles OAuth, and uses tools autonomously.",
         tags: ["Node.js", "Gemini", "Prisma", "Next.js", "Express.js", "OAuth 2.0", "PostgreSQL", "AI-SDK"],
         link: "https://github.com/Abhas7",
@@ -18,7 +40,7 @@ const PROJECTS = [
     },
     {
         title: "BLOGGERR",
-        id: "02",
+        id: "03",
         description: "AI-powered platform generating context-aware blog posts instantly using LLM orchestration.",
         tags: ["React", "Express.js", "OpenRouter", "MongoDB", "AI-SDK", "NextAuth"],
         link: "https://github.com/Abhas7",
@@ -29,7 +51,7 @@ const PROJECTS = [
     },
     {
         title: "AI Interviewer",
-        id: "03",
+        id: "04",
         description: "The ultimate AI-driven sandbox interview app: live code generation, autonomous tool usage, and real-time web searches to test your true engineering depth.",
         tags: ["React", "Express", "OpenRouter", "OpenCV", "LangChain", "MongoDB", "AI-SDK", "Zod Validation"],
         link: "https://github.com/Abhas7",
@@ -40,7 +62,7 @@ const PROJECTS = [
     },
     {
         title: "Task Manager",
-        id: "04",
+        id: "05",
         description: "Full-stack task management application enabling secure user authentication, task tracking, and productivity management through a scalable ASP.NET Core and React architecture.",
         tags: [
             "ASP.NET Core 8 Web API",

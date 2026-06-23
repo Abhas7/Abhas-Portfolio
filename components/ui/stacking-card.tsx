@@ -121,7 +121,7 @@ const Component = forwardRef<HTMLElement, ComponentRootProps>(({ projects }, ref
                 color={project.color}
                 description={project.description}
                 progress={scrollYProgress}
-                range={[i * 0.25, 1]}
+                range={[i * (1 / projects.length), 1]}
                 targetScale={targetScale}
                 project={project}
               />
