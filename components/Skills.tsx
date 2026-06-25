@@ -6,50 +6,50 @@ import { ScrollingFeatureShowcase } from "@/components/ui/interactive-scrolling-
 
 const techGroups = [
     {
-        title: "Languages & Core",
+        title: "Languages",
         description: "The foundation of my computational thinking and software engineering, focused on speed, strict typing, and high-efficiency programming.",
         icon: <Code size={32} className="text-current" />,
-        skills: ["JavaScript", "TypeScript", "Python", "C#"],
+        skills: ["JavaScript", "TypeScript", "Python"],
         bgColor: "#EAE7E0",
         textColor: "#000000"
     },
     {
-        title: "Frontend Ecosystem",
+        title: "Frontend",
         description: "Crafting immersive web experiences with responsive layouts, pixel-perfect design systems, and highly optimized component architectures.",
         icon: <Globe size={32} className="text-current" />,
-        skills: ["Next.js", "React", "Context API", "Chakra UI", "Vite", "Vue.js", "Three.js", "Tailwind CSS"],
+        skills: ["React.js", "Next.js", "Redux", "Tailwind CSS", "HTML5", "CSS3"],
         bgColor: "#E0E3EA",
         textColor: "#000000"
     },
     {
-        title: "Backend & Systems",
+        title: "Backend",
         description: "Designing secure REST and GraphQL APIs, managing real-time event streams, and implementing scalable, concurrent server architectures.",
         icon: <Server size={32} className="text-current" />,
-        skills: ["Node.js", "Express.js", "ASP.NET Core", "EF Core", "FastAPI", "Flask", "GraphQL", "Socket.io", "JWT", "Prisma"],
+        skills: ["Node.js", "Express.js", "Flask", "REST APIs", "JWT", "Auth & RBAC"],
         bgColor: "#EAE0E3",
         textColor: "#000000"
     },
     {
-        title: "Data Architecture",
+        title: "Databases",
         description: "Modeling relational schemas, indexing queries, and managing non-relational database structures to ensure fast access times and data integrity.",
         icon: <Database size={32} className="text-current" />,
-        skills: ["Postgres", "Pinecone", "MongoDB", "MySQL", "Cassandra", "Supabase", "Firebase"],
+        skills: ["PostgreSQL", "MongoDB", "Redis", "Supabase", "Pinecone", "SQL"],
         bgColor: "#E0EAE5",
         textColor: "#000000"
     },
     {
-        title: "Cloud & Devops",
+        title: "DevOps & Cloud",
         description: "Deploying highly available servers, automating deployment pipelines, and managing serverless and containerized environments.",
         icon: <Cloud size={32} className="text-current" />,
-        skills: ["AWS", "GCP", "Docker", "Kubernetes", "Vercel", "Netlify", "OpenStack", "Oracle", "Jenkins"],
+        skills: ["Docker", "AWS", "GitHub Actions", "CI/CD", "Linux", "Vercel"],
         bgColor: "#E7EAE0",
         textColor: "#000000"
     },
     {
-        title: "AI & Data Science",
-        description: "Training neural networks, processing pipelines, and applying statistical models to engineer automated, intelligent systems.",
+        title: "AI & Generative AI",
+        description: "Developing intelligent applications using LLMs, prompt engineering, semantic search, vector databases, and retrieval-augmented generation (RAG) pipelines.",
         icon: <Cpu size={32} className="text-current" />,
-        skills: ["LangChain", "Ollama", "PyTorch", "TensorFlow", "Scikit-Learn", "NumPy", "Pandas", "Plotly", "OpenCV"],
+        skills: ["LangChain", "Ollama", "RAG Pipelines", "LLM Integration", "Prompt Engineering", "Semantic Search", "Vector Databases", "Embeddings"],
         bgColor: "#E5E0EA",
         textColor: "#000000"
     }
