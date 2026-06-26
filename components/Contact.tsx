@@ -2,7 +2,7 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import { Github, Linkedin, ArrowRight, Send, Plus } from "lucide-react";
+import { Github, Linkedin, ArrowRight, Send, Plus, FileDown } from "lucide-react";
 
 const containerVariants = {
     hidden: { opacity: 0 },
@@ -164,6 +164,33 @@ const Contact = () => {
                                         <LeetcodeIcon size={18} />
                                     </motion.div>
                                     <span className="font-bold text-sm text-foreground font-display uppercase tracking-widest">LeetCode</span>
+                                </div>
+                                <ArrowRight size={14} className="text-text-muted group-hover:text-accent transition-colors duration-300" />
+                            </a>
+                        </motion.div>
+
+                        <motion.div
+                            key="footer-resume"
+                            variants={itemLeftVariants}
+                            whileHover={{ x: 4 }}
+                            className="bg-card hover:bg-neutral-50/50 dark:hover:bg-neutral-900/30 transition-colors duration-300 group"
+                        >
+                            <a
+                                href="/Abhas_Somkuwar_Resume.pdf"
+                                download="Abhas_Somkuwar_Resume.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                suppressHydrationWarning
+                                className="flex items-center justify-between p-10 w-full h-full"
+                            >
+                                <div className="flex items-center gap-4">
+                                    <motion.div 
+                                        whileHover={{ rotate: 12, scale: 1.05 }}
+                                        className="p-3 border border-border text-text-muted group-hover:text-accent group-hover:border-accent transition-colors duration-300"
+                                    >
+                                        <FileDown size={18} />
+                                    </motion.div>
+                                    <span className="font-bold text-sm text-foreground font-display uppercase tracking-widest">Download Resume</span>
                                 </div>
                                 <ArrowRight size={14} className="text-text-muted group-hover:text-accent transition-colors duration-300" />
                             </a>
