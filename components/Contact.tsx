@@ -2,7 +2,8 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import { Github, Linkedin, ArrowRight, Send, Plus, FileDown } from "lucide-react";
+import { Github, Linkedin, ArrowRight, Send, Plus, FileDown, Eye } from "lucide-react";
+import { Dialog, DialogContent, DialogTrigger, DialogHeader, DialogTitle, DialogDescription } from "@/components/ui/dialog";
 
 const containerVariants = {
     hidden: { opacity: 0 },
@@ -169,32 +170,52 @@ const Contact = () => {
                             </a>
                         </motion.div>
 
-                        <motion.div
-                            key="footer-resume"
-                            variants={itemLeftVariants}
-                            whileHover={{ x: 4 }}
-                            className="bg-card hover:bg-neutral-50/50 dark:hover:bg-neutral-900/30 transition-colors duration-300 group"
-                        >
-                            <a
-                                href="/Abhas_Somkuwar_Resume.pdf"
-                                download="Abhas_Somkuwar_Resume.pdf"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                suppressHydrationWarning
-                                className="flex items-center justify-between p-10 w-full h-full"
-                            >
-                                <div className="flex items-center gap-4">
-                                    <motion.div 
-                                        whileHover={{ rotate: 12, scale: 1.05 }}
-                                        className="p-3 border border-border text-text-muted group-hover:text-accent group-hover:border-accent transition-colors duration-300"
+                        <Dialog>
+                            <DialogTrigger asChild>
+                                <motion.div
+                                    key="footer-show-resume"
+                                    variants={itemLeftVariants}
+                                    whileHover={{ x: 4 }}
+                                    className="bg-card hover:bg-neutral-50/50 dark:hover:bg-neutral-900/30 transition-colors duration-300 group cursor-pointer"
+                                >
+                                    <div className="flex items-center justify-between p-10 w-full h-full">
+                                        <div className="flex items-center gap-4">
+                                            <motion.div 
+                                                whileHover={{ rotate: 12, scale: 1.05 }}
+                                                className="p-3 border border-border text-text-muted group-hover:text-accent group-hover:border-accent transition-colors duration-300"
+                                            >
+                                                <Eye size={18} />
+                                            </motion.div>
+                                            <span className="font-bold text-sm text-foreground font-display uppercase tracking-widest">Show Resume</span>
+                                        </div>
+                                        <ArrowRight size={14} className="text-text-muted group-hover:text-accent transition-colors duration-300" />
+                                    </div>
+                                </motion.div>
+                            </DialogTrigger>
+                            <DialogContent className="max-w-5xl w-[90vw] h-[90vh] bg-background border border-border flex flex-col p-0">
+                                <DialogHeader className="p-6 border-b border-border flex flex-row items-center justify-between">
+                                    <div>
+                                        <DialogTitle className="text-2xl font-medium font-display text-foreground uppercase tracking-wider">My Resume</DialogTitle>
+                                        <DialogDescription className="text-xs text-text-muted mt-1">Abhas Somkuwar — Backend Developer Intern</DialogDescription>
+                                    </div>
+                                    <a
+                                        href="/Abhas_Somkuwar_Resume.pdf"
+                                        download="Abhas_Somkuwar_Resume.pdf"
+                                        className="mr-12 p-2 border border-border hover:border-accent hover:text-accent rounded-md transition-colors duration-300 flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-foreground"
                                     >
-                                        <FileDown size={18} />
-                                    </motion.div>
-                                    <span className="font-bold text-sm text-foreground font-display uppercase tracking-widest">Download Resume</span>
+                                        <FileDown size={14} /> Download PDF
+                                    </a>
+                                </DialogHeader>
+                                <div className="flex-1 w-full h-full overflow-hidden bg-neutral-100 dark:bg-neutral-950">
+                                    <iframe 
+                                        src="/Abhas_Somkuwar_Resume.pdf#toolbar=0" 
+                                        className="w-full h-full border-0"
+                                        title="Abhas Somkuwar Resume"
+                                    />
                                 </div>
-                                <ArrowRight size={14} className="text-text-muted group-hover:text-accent transition-colors duration-300" />
-                            </a>
-                        </motion.div>
+                            </DialogContent>
+                        </Dialog>
+
                     </motion.div>
 
                     {/* Main CTA Wall - Square Box */}
