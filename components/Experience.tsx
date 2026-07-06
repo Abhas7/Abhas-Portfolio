@@ -172,6 +172,23 @@ const Experience = () => {
                                 </a>
                             </motion.div>
 
+                            {/* Backend Developer Intern Section */}
+                            <motion.div
+                                variants={timelineItemVariants}
+                                className="relative pb-12 border-b border-border/60 group"
+                            >
+                                <div className="flex items-baseline justify-between mb-4">
+                                    <h4 className="text-2xl font-medium text-foreground font-display capitalize">Backend Developer Intern</h4>
+                                    <span className="text-accent font-medium text-xs tracking-[0.15em] uppercase">2026</span>
+                                </div>
+                                <div className="text-text-muted font-medium text-xs uppercase tracking-[0.15em] mb-6 flex items-center gap-2">
+                                    <Briefcase size={14} /> Flutter Flirt
+                                </div>
+                                <p className="text-text-muted text-lg leading-relaxed max-w-lg font-light">
+                                    Architected high-throughput RESTful APIs, optimized database operations, and built secure user authentication schemes for real-time services.
+                                </p>
+                            </motion.div>
+
                             {/* All India NCAT by Naukri Section */}
                             <motion.div
                                 variants={timelineItemVariants}
