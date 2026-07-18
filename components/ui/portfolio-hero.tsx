@@ -180,7 +180,7 @@ export default function Component() {
             </div>
             <p className="text-text-muted font-medium text-xs uppercase tracking-[0.15em]">Sage University, Bhopal</p>
             <div className="flex items-baseline gap-3">
-              <div className="text-5xl font-light tracking-tight font-display">8.3</div>
+              <div className="text-5xl font-light tracking-tight font-display">7.97</div>
               <div className="text-accent font-medium text-xs uppercase tracking-[0.15em]">CGPA</div>
             </div>
           </div>
