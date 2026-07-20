@@ -16,6 +16,11 @@ const CERTIFICATES = [
         link: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=14E4CA1E0D818F73877E30986D3F38212222113503FF5ED5326103377C3DE56F"
     },
     {
+        title: "Agentic AI Certified Foundations Associate",
+        issuer: "Oracle",
+        link: "https://catalog-education.oracle.com/ords/certview/sharebadge?id=0DFB94F8CE67FEBE16B50B0A5F0D181038B2C82272A447D603B3BE2DB6FBBBDF"
+    },
+    {
         title: "McKinsey Forward Program",
         issuer: "McKinsey",
         link: "https://www.credly.com/badges/a02d4efb-fcbb-4bbc-bda8-9ae3b9b1a588/linked_in_profile"
@@ -23,7 +28,7 @@ const CERTIFICATES = [
     {
         title: "TCS Young Professional",
         issuer: "TCS",
-        link: "#"   
+        link: "https://drive.google.com/file/d/1Vh-1l4cYE8OWkvzau-wpBvLcBIKWLHyc/view?pli=1"   
     },
     {
         title: "Introduction to Data Science",
