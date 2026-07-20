@@ -21,6 +21,11 @@ const CERTIFICATES = [
         link: "https://catalog-education.oracle.com/ords/certview/sharebadge?id=0DFB94F8CE67FEBE16B50B0A5F0D181038B2C82272A447D603B3BE2DB6FBBBDF"
     },
     {
+        title: "National Creativity Aptitude Test (NCAT)",
+        issuer: "Naukri (AIR 4015)",
+        link: "https://drive.google.com/file/d/1Qjn6vIvkOTCcbuNiPhVy-n36MWeB1MoF/view?usp=drive_link"
+    },
+    {
         title: "McKinsey Forward Program",
         issuer: "McKinsey",
         link: "https://www.credly.com/badges/a02d4efb-fcbb-4bbc-bda8-9ae3b9b1a588/linked_in_profile"
@@ -206,9 +211,18 @@ const Experience = () => {
                                 <div className="text-text-muted font-medium text-xs uppercase tracking-[0.15em] mb-6 flex items-center gap-2">
                                     <Award size={14} /> All India NCAT by Naukri
                                 </div>
-                                <p className="text-text-muted text-lg leading-relaxed max-w-lg font-light">
+                                <p className="text-text-muted text-lg leading-relaxed max-w-lg font-light mb-6">
                                     Achieved an All India Rank of 4015 in the National Creativity Aptitude Test (NCAT) organized by Naukri, testing cognitive, logical, and creative abilities.
                                 </p>
+                                <a
+                                    href="https://drive.google.com/file/d/1Qjn6vIvkOTCcbuNiPhVy-n36MWeB1MoF/view?usp=drive_link"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    suppressHydrationWarning
+                                    className="inline-flex items-center gap-2 text-foreground hover:text-accent transition-colors text-xs font-medium uppercase tracking-[0.15em] border-b border-transparent hover:border-accent pb-1"
+                                >
+                                    View Certificate <ExternalLink size={12} />
+                                </a>
                             </motion.div>
                         </motion.div>
                     </div>
